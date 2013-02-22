@@ -39,6 +39,29 @@ h2 {
   font-size: 12pt;
 }
 
+/* header styling: */
+div#header {
+  /* not sure if I like this border */
+  border-bottom-style: ridge;
+
+}
+
+
+/* footer styling: */
+div#footer {
+  display: none;
+
+}
+
+/* contact information styling: */
+.contact {
+  position: absolute;
+  top: 3em;
+  right: 1em;
+  text-align: right;
+
+}
+
 
 /* unordered list styling: */
 ul li {
