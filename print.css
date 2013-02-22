@@ -29,6 +29,12 @@ h1 {
 }
 
 
+.tagline {
+  margin: 1em;
+
+}
+
+
 h2 {
   font-size: 12pt;
 }
@@ -53,11 +59,13 @@ ol li {
   list-style-type: none;
 }
 
+/* uppercase letters for name of university and job titles */
 .school, .title {
   text-transform: uppercase;
   font-weight: bold;
 }
 
+/* italicizing names of workplaces */
 .workplace {
   font-style: italic;
 }
