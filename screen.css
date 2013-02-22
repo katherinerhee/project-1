@@ -43,8 +43,16 @@ h2 {
 
 /* header styling: */
 div#header {
-  /* not sure if I like this border - play with and add later to print.css */
+  /* not sure if I like this border */
   border-bottom-style: ridge;
+
+}
+
+/* footer styling: */
+div#footer {
+  /* not sure if I like this border */
+  border-top-style: ridge;
+  font-style: italic;
 
 }
 
