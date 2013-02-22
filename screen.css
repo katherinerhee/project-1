@@ -31,6 +31,7 @@ h1 {
 
 .tagline {
   margin: 1em;
+  font-style: italic;
 
 }
 
@@ -38,6 +39,14 @@ h1 {
 h2 {
   font-size: large;
   
+}
+
+/* header styling: */
+div#header {
+  /* not sure if I like this border - play with and add later to print.css */
+  border-bottom: 3px solid #3399FF;
+
+
 }
 
 
