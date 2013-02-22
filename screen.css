@@ -44,7 +44,7 @@ h2 {
 /* header styling: */
 div#header {
   /* not sure if I like this border - play with and add later to print.css */
-  border-bottom: 3px solid #3399FF;
+  border-bottom-style: ridge;
 
 }
 
