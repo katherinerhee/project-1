@@ -29,13 +29,6 @@ h1 {
   font-size: x-large;
 }
 
-.tagline {
-  margin: 1em;
-  font-style: italic;
-
-}
-
-
 h2 {
   font-size: large;
   
@@ -52,6 +45,14 @@ div#header {
 div#footer {
   /* not sure if I like this border */
   border-top-style: ridge;
+  font-style: italic;
+  margin-top: 3em;
+
+}
+
+/* tagline (in header) and credits (in footer) */
+.tagline, .credits {
+  margin: 1em;
   font-style: italic;
 
 }
