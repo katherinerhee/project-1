@@ -66,6 +66,34 @@ div#footer {
 
 }
 
+/* navigation styling: */
+ul#navigation {
+  overflow: hidden;
+  
+}
+
+ul#navigation li {
+  width: 100px;
+  float: left;
+  display: inline;
+  margin-right: 5px;
+  text-align: center;
+
+}
+
+ul#navigation li a {
+  display: block;
+  padding: 5px 10px 5px 10px;
+  background-color: gray;
+
+}
+
+ul#navigation li a:hover,
+ul#navigation li a:focus {
+  background-color: white;
+
+}
+
 
 /* unordered list styling: */
 ul li {
@@ -82,7 +110,7 @@ ol li {
 }
 
 /* removing bullets by school name, grad info, job title, job workplace, job dates: */
-.school, .grad, .title, .workplace, .dates, .email, .phone {
+.school, .grad, .title, .workplace, .dates, .email, .phone, .contact {
   list-style-type: none;
 }
 
