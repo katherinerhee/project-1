@@ -44,7 +44,7 @@ div#header {
 /* footer styling: */
 div#footer {
   /* not sure if I like this border */
-  border-top-style: ridge;
+  border-top-style: groove;
   font-style: italic;
   margin-top: 3em;
 
