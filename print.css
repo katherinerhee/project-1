@@ -83,6 +83,12 @@ ol li {
 
 }
 
+/* paragraph styling: */
+p {
+  margin-left: 2em;
+
+}
+
 /* removing bullets by school name, grad info, job title, job workplace, job dates: */
 .school, .grad, .title, .workplace, .dates, .email, .phone {
   list-style-type: none;
