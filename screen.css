@@ -107,7 +107,7 @@ ul#navigation li a:focus {
 
 /* unordered list styling: */
 ul li {
-  margin-left: 2.2em;
+  margin-left: 2em;
   list-style-type: circle;
 
 }
@@ -116,6 +116,12 @@ ul li {
 ol li {
   margin-left: 3em;
   list-style-type: decimal;
+
+}
+
+/* paragraph styling: */
+p {
+  margin-left: 2em;
 
 }
 
