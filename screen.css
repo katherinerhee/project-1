@@ -130,6 +130,7 @@ p {
   list-style-type: none;
 }
 
+
 /* uppercase letters for name of university and job titles */
 .school, .title {
   text-transform: uppercase;
