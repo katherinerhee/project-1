@@ -47,8 +47,14 @@ div#header {
 }
 
 
-/* footer styling: */
+/* footer styling (do not print): */
 div#footer {
+  display: none;
+
+}
+
+/* navigation styling (do not print): */
+ul#navigation {
   display: none;
 
 }
