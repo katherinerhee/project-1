@@ -69,6 +69,7 @@ div#footer {
 /* navigation styling: */
 ul#navigation {
   overflow: hidden;
+  border-bottom-style: ridge;
   
 }
 
@@ -78,19 +79,22 @@ ul#navigation li {
   display: inline;
   margin-right: 5px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 
 }
 
 ul#navigation li a {
   display: block;
   padding: 5px 10px 5px 10px;
-  background-color: gray;
+  background-color: #3399FF;
+  color: white;
 
 }
 
 ul#navigation li a:hover,
 ul#navigation li a:focus {
-  background-color: white;
+  background-color: #5B55BF;
 
 }
 
