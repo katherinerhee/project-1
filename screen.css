@@ -20,7 +20,7 @@ h1, h2 {
   text-transform: uppercase;
   font-weight: bold;
   margin: .5em;
-  color: #3399FF;
+  color: #4682B4;
 
 }
 
@@ -31,6 +31,11 @@ h1 {
 
 h2 {
   font-size: large;
+  display: block;
+  padding: 5px 10px 5px 10px;
+  background-color: #4682B4;
+  color: white;
+  width: 150px;
   
 }
 
@@ -87,16 +92,17 @@ ul#navigation li {
 ul#navigation li a {
   display: block;
   padding: 5px 10px 5px 10px;
-  background-color: #3399FF;
+  background-color: #4682B4;
   color: white;
 
 }
 
 ul#navigation li a:hover,
 ul#navigation li a:focus {
-  background-color: #5B55BF;
+  background-color: #5654BF;
 
 }
+
 
 
 /* unordered list styling: */
