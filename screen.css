@@ -39,6 +39,14 @@ h2 {
   
 }
 
+b, strong {
+  font-weight: bold;
+}
+
+cite {
+  font-style: italic;
+}
+
 /* header styling: */
 div#header {
   /* not sure if I like this border */
@@ -122,11 +130,12 @@ ol li {
 /* paragraph styling: */
 p {
   margin-left: 2em;
+  margin-right: 2em;
 
 }
 
-/* removing bullets by school name, grad info, job title, job workplace, job dates: */
-.school, .grad, .title, .workplace, .dates, .email, .phone, .contact {
+/* removing bullets: */
+.school, .grad, .title, .workplace, .dates, .email, .phone, .biography {
   list-style-type: none;
 }
 
