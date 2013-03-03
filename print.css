@@ -6,6 +6,7 @@ body {
   background: white;
   color: black;
   font-family: "Candara", Candara, sans-serif;
+  padding: 1em;
   
 }
 
@@ -19,7 +20,7 @@ div#page {
 h1, h2 {
   text-transform: uppercase;
   font-weight: bold;
-  margin: .5em;
+  margin: .5em .5em .5em 0em;  
 
 }
 
