@@ -153,7 +153,7 @@ p {
 }
 
 /* removing bullets: */
-.school, .grad, .title, .workplace, .dates, .email, .phone, .biography {
+.school, .grad, .degree, .title, .workplace, .dates, .email, .phone, .biography {
   list-style-type: none;
 }
 
