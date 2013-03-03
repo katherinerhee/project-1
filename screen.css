@@ -72,7 +72,7 @@ div#footer {
 }
 
 /* contact information styling: */
-.contact {
+#contact {
   position: absolute;
   top: 3em;
   right: 1em;
