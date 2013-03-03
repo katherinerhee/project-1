@@ -12,7 +12,8 @@ body {
 }
 
 div#page {
-  font-size: 100%;
+  font-size: 14px;
+  line-height: 18px;
   
 }
 
@@ -27,16 +28,26 @@ h1, h2 {
 
 
 h1 {
-  font-size: x-large;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 h2 {
-  font-size: large;
+  font-size: 24px;
   display: block;
   padding: 6px 12px 6px 12px;
   background-color: #4682B4;
   color: white;
-  width: 150px;
+  width: 200px;
+  
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4682B4;
   
 }
 
@@ -78,8 +89,7 @@ div#footer {
   float: right;
   margin-left: 10%;
   text-align: right;
-  background-color: red;
-
+  background-color: gray;
 }
 
 /* navigation styling: */
@@ -167,17 +177,14 @@ p {
     float: left;
   }
 
-
   /* contact information styling: */
   #contact {
     width: 30%;
     float: right;
     margin-left: 10%;
     text-align: right;
-    background-color: red;
+    background-color: yellow;
   }
-
-
 }
 
 
