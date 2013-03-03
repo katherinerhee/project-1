@@ -60,6 +60,7 @@ div#footer {
   /* not sure if I like this border */
   border-top-style: groove;
   font-style: italic;
+  clear: both;
   margin-top: 3em;
 
 }
@@ -71,12 +72,13 @@ div#footer {
 
 }
 
+
 /* contact information styling: */
 #contact {
-  position: absolute;
-  top: 3em;
-  right: 1em;
+  float: right;
+  margin-left: 10%;
   text-align: right;
+  background-color: red;
 
 }
 
@@ -157,7 +159,26 @@ p {
 }
 
 
+@media screen and (min-width: 800px) {
+/* LAYOUT */
+  /* resume, about content styling/layout */
+  #resume-info, #about-info {
+    width: 60%;
+    float: left;
+  }
 
+
+  /* contact information styling: */
+  #contact {
+    width: 30%;
+    float: right;
+    margin-left: 10%;
+    text-align: right;
+    background-color: red;
+  }
+
+
+}
 
 
 
