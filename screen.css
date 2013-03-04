@@ -173,7 +173,7 @@ p {
 @media screen and (min-width: 800px) {
 /* LAYOUT */
   /* resume, about content styling/layout */
-  #resume-info, #about-info {
+  #resume-info, #about-info, #dublin-info {
     width: 60%;
     float: left;
   }
