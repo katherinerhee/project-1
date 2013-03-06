@@ -64,14 +64,14 @@ cite {
 /* header styling: */
 div#header {
   /* not sure if I like this border */
-  border-bottom-style: ridge;
+  border-bottom: 1px solid grey;
 
 }
 
 /* footer styling: */
 div#footer {
   /* not sure if I like this border */
-  border-top-style: groove;
+  border-top: 1px solid grey;
   font-style: italic;
   clear: both;
   margin-top: 3em;
@@ -97,7 +97,7 @@ div#footer {
 /* navigation styling: */
 ul#navigation {
   overflow: hidden;
-  border-bottom-style: ridge;
+  border-bottom: 1px solid grey;
   
 }
 
