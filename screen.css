@@ -91,6 +91,7 @@ div#footer {
   margin-left: 10%;
   text-align: right;
   background-color: gray;
+  padding: 12px;
 }
 
 /* navigation styling: */
@@ -176,8 +177,8 @@ p {
   /* resume, about content styling/layout */
   #resume-info, #about-info, #dublin-info {
     width: 60%;
-    float: left;
-  }
+    /* float: left; */
+  } 
 
   /* contact information styling: */
   #contact {
