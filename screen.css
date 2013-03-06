@@ -91,6 +91,7 @@ div#footer {
   text-align: center;
   background-color: gray;
   padding: 12px;
+  margin-top: 12px;
 }
 
 
@@ -186,8 +187,8 @@ p {
     width: 30%;
     float: right;
     margin-left: 10%;
-    text-align: right;
     background-color: yellow;
+
   }
 }
 
