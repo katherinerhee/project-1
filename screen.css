@@ -154,6 +154,29 @@ p {
 
 }
 
+/* Responsive Images and Image Styling */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+div.photograph {
+  background: #333; /*photos show up well against dark backgrounds*/
+  color: #FFF; /*white text*/
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+
+div.photograph img {
+  border: 1px solid black; /*gives definition to lighter edges of photos*/
+
+}
+
+div.photograph p.caption {
+  text-align: center;
+}
+
+
 /* removing bullets: */
 .school, .grad, .degree, .title, .workplace, .dates, .email, .phone, .biography,
 .trip-detail {
@@ -193,6 +216,14 @@ p {
 }
 
 
+/* Accessibility */
+  /* Accessible Images */
+    .access-label {
+      display: block; /*display block is for positioning*/
+      position: absolute; /*pulls from document flow*/
+      left: -10000px; /*move way left of screen*/
+    
+    }
 
 
 
