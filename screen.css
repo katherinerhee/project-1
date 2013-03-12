@@ -179,7 +179,7 @@ div.photograph p.caption {
 
 /* removing bullets: */
 .school, .grad, .degree, .title, .workplace, .dates, .email, .phone, .biography,
-.trip-detail {
+.trip-detail, .destination {
   list-style-type: none;
 }
 
