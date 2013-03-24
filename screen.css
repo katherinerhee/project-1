@@ -200,7 +200,7 @@ div.photograph p.caption {
 @media screen and (min-width: 800px) {
 /* LAYOUT */
   /* resume, about content styling/layout */
-  #resume-info, #about-info, #dublin-info, #london-info {
+  #resume-info, #about-info, #dublin-info, #london-info, #paris-info {
     width: 60%;
     /* float: left; */
   } 
