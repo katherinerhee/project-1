@@ -216,6 +216,21 @@ div.photograph p.caption {
     background-color: yellow;
 
   }
+  
+  div#content > p,
+  div#content > ul,
+  div#content > h2 {
+    padding-right: 50%; /* Pad all the immediate children of content div */
+  
+  }
+  
+  div#content > div.photograph {
+    padding-left: 25%; /* Pad image divs so that they expand wider than content */
+  
+  }
+  
+  
+  
 }
 
 
