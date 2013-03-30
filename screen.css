@@ -5,7 +5,9 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 body {
   background: white;
   color: black;
-  font-family: "Candara", Candara, sans-serif;
+  font-family: "museo-slab";
+  font-weight: 300;
+  font-style: normal;
   padding: 24px;
   line-height: 24px;
   
@@ -20,7 +22,9 @@ div#page {
 
 h1, h2 {
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: "museo-slab";
+  font-weight: 700;
+  font-style: normal;
   color: #4682B4;
   margin: 12px 6px 12px 0px;
 
@@ -47,17 +51,21 @@ h3 {
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   color: #4682B4;
   margin-left: 2em;
   
 }
 
 b, strong {
-  font-weight: bold;
+  font-family: "museo-slab";
+  font-weight: 700;
+  font-style: normal;
 }
 
 cite {
+  font-family: "museo-slab";
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -217,14 +225,14 @@ div.photograph p.caption {
 
   }
   
-  div#content > p,
-  div#content > ul,
-  div#content > h2 {
+  div#dublin-info > p,
+  div#dublin-info > ul,
+  div#dublin-info > h2 {
     padding-right: 50%; /* Pad all the immediate children of content div */
   
   }
   
-  div#content > div.photograph {
+  div#dublin-info > div.photograph {
     padding-left: 25%; /* Pad image divs so that they expand wider than content */
   
   }
