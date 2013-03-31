@@ -89,8 +89,12 @@ div#footer {
 
 /* tagline (in header) and credits (in footer) */
 .tagline, .credits {
-  margin: 1em;
-  font-style: italic;
+  margin: 6px;
+  font-family: "balzano-std";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height:36px;
 
 }
 
