@@ -65,9 +65,10 @@ b, strong {
 }
 
 cite {
-  font-family: "museo-slab";
-  font-weight: 300;
+  font-family: "balzano-std";
+  font-weight: 400;
   font-style: italic;
+  font-size: 22px;
 }
 
 /* header styling: */
