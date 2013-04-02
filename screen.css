@@ -216,30 +216,30 @@ div.photograph p.caption {
 @media screen and (min-width: 800px) {
 /* LAYOUT */
   /* resume, about content styling/layout */
-  #resume-info, #about-info, #dublin-info, #london-info, #paris-info {
-    width: 60%;
+  #content {
+    width: 75%;
     /* float: left; */
   } 
 
   /* contact information styling: */
   #contact {
     text-align: right;
-    width: 30%;
+    width: 25%;
     float: right;
     margin-left: 10%;
     background-color: yellow;
 
   }
   
-  div#dublin-info > p,
-  div#dublin-info > ul,
-  div#dublin-info > h2 {
-    padding-right: 50%; /* Pad all the immediate children of content div */
+  div#content > p,
+  div#content > ul,
+  div#content > h2 {
+    padding-right: 25%; /* Pad all the immediate children of content div */
   
   }
   
-  div#dublin-info > div.photograph {
-    padding-left: 25%; /* Pad image divs so that they expand wider than content */
+  div#content > div.photograph {
+    margin-left: 25%; /* Pad image divs so that they expand wider than content */
   
   }
   
