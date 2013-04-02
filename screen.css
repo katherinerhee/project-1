@@ -234,7 +234,7 @@ div.photograph p.caption {
   div#content > p,
   div#content > ul,
   div#content > h2 {
-    padding-right: 25%; /* Pad all the immediate children of content div */
+    padding-right: 15%; /* Pad all the immediate children of content div */
   
   }
   
