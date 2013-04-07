@@ -115,14 +115,17 @@ ul#social-links {
 }
 
 ul#social-links li {
-  float: left; /* Float items to left */
   display: inline; /* Fix a float issue in older IE browsers */
   margin-right: 1px; /* Space between items */
+  
+  /* For IE 7 */
+  zoom: 1;
+  *display: inline;
   
 }
 
 ul#social-links li a {
-  display: block; /* Maximize clickable area */
+  display: inline-block; /* Maximize clickable area, center link icons */
 
 
 }
