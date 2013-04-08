@@ -81,7 +81,7 @@ div#header {
 /* footer styling: */
 div#footer {
   /* not sure if I like this border */
-  border-top: 1px solid grey;
+  border-top: 1px solid #A9A9A9;
   clear: both;
   margin-top: 3em;
 
@@ -102,7 +102,7 @@ div#footer {
 /* contact information styling: */
 #contact {
   text-align: center;
-  background-color: gray;
+  background-color: #A9A9A9;
   padding: 12px;
   margin-top: 12px;
 }
@@ -139,8 +139,8 @@ img.icon {
 /* navigation styling: */
 ul#navigation {
   overflow: hidden; /* Necessary style to best handle floats */
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
+  border-bottom: 1px solid #A9A9A9;
+  border-top: 1px solid #A9A9A9;
   margin-top: 6px;
   
 }
@@ -263,7 +263,9 @@ div#home-pic {
     width: 25%;
     float: right;
     margin-left: 10%;
-    background-color: yellow;
+    background-color: #A9A9A9;
+
+
 
   }
   
