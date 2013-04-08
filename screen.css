@@ -54,7 +54,7 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   color: #4682B4;
-  margin-left: 2em;
+  margin: 6px;
   
 }
 
@@ -251,7 +251,7 @@ div.photograph p.caption {
 
   /* contact information styling: */
   #contact {
-    text-align: center;
+    text-align: left;
     width: 25%;
     float: right;
     margin-left: 10%;
