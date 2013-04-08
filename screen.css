@@ -73,8 +73,8 @@ cite {
 
 /* header styling: */
 div#header {
-  /* not sure if I like this border */
-  border-bottom: 1px solid grey;
+  /* commented out border because added top border to navigation instead*/
+  /*border-bottom: 1px solid grey; */
 
 }
 
@@ -141,6 +141,8 @@ img.icon {
 ul#navigation {
   overflow: hidden; /* Necessary style to best handle floats */
   border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  margin-top: 6px;
   
 }
 
@@ -219,6 +221,13 @@ div.photograph img {
 
 div.photograph p.caption {
   text-align: center;
+}
+
+div#home-pic {
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-top: -24px;
+
 }
 
 
