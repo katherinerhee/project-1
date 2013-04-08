@@ -82,7 +82,6 @@ div#header {
 div#footer {
   /* not sure if I like this border */
   border-top: 1px solid grey;
-  font-style: italic;
   clear: both;
   margin-top: 3em;
 
@@ -233,7 +232,7 @@ div#home-pic {
 
 /* removing bullets: */
 .school, .grad, .degree, .title, .workplace, .dates, .email, .phone, .biography,
-.trip-detail, .destination, .social-media {
+.trip-detail, .destination, .social-media, .validators {
   list-style-type: none;
 }
 
