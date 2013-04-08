@@ -102,7 +102,7 @@ div#footer {
 /* contact information styling: */
 #contact {
   text-align: center;
-  background-color: #A9A9A9;
+  background-color: white;
   padding: 12px;
   margin-top: 12px;
 }
@@ -248,8 +248,77 @@ div#home-pic {
   font-style: italic;
 }
 
+@media screen and (min-width: 690px) {
+/* LAYOUT */
+  /* resume, about content styling/layout */
+  #content {
+    width: 60%;
+    /* float: left; */
+  } 
 
-@media screen and (min-width: 800px) {
+  /* contact information styling: */
+  #contact {
+    text-align: left;
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    background-color: white;
+
+  }
+  
+  div#content > p,
+  div#content > ul,
+  div#content > h2 {
+    padding-right: 15%; /* Pad all the immediate children of content div */
+  
+  }
+  
+  div#content > div.photograph {
+    margin-left: 25%; /* Pad image divs so that they expand wider than content */
+  
+  }
+  
+  
+  
+}
+
+@media screen and (min-width: 900px) {
+/* LAYOUT */
+  /* resume, about content styling/layout */
+  #content {
+    width: 70%;
+    /* float: left; */
+  } 
+
+  /* contact information styling: */
+  #contact {
+    text-align: left;
+    width: 30%;
+    float: right;
+    margin-left: 5%;
+    background-color: white;
+
+  }
+
+  
+  div#content > p,
+  div#content > ul,
+  div#content > h2 {
+    padding-right: 15%; /* Pad all the immediate children of content div */
+  
+  }
+  
+  div#content > div.photograph {
+    margin-left: 25%; /* Pad image divs so that they expand wider than content */
+  
+  }
+  
+  
+  
+}
+
+
+@media screen and (min-width: 1070px) {
 /* LAYOUT */
   /* resume, about content styling/layout */
   #content {
@@ -263,7 +332,7 @@ div#home-pic {
     width: 25%;
     float: right;
     margin-left: 10%;
-    background-color: #A9A9A9;
+    background-color: white;
 
 
 
