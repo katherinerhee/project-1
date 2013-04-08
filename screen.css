@@ -168,7 +168,7 @@ ul#navigation li a {
 
 ul#navigation li a:hover,
 ul#navigation li a:focus,
-/* body.home ul#navigation li a#nav-home, */
+body.home ul#navigation li a#nav-home,
 body.about ul#navigation li a#nav-about,
 body.resume ul#navigation li a#nav-resume,
 body.travel ul#navigation li a#nav-travel {
