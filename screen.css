@@ -71,6 +71,12 @@ cite {
   font-size: 22px;
 }
 
+a {
+  color: #708090;
+  
+
+}
+
 /* header styling: */
 div#header {
   /* commented out border because added top border to navigation instead*/
