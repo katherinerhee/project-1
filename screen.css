@@ -53,7 +53,7 @@ h3 {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #5654BF; /*purple*/
+  color: #FF8A58; /*ORANGE*/
   margin: 6px;
   
 }
@@ -180,7 +180,7 @@ body.home ul#navigation li a#nav-home,
 body.about ul#navigation li a#nav-about,
 body.resume ul#navigation li a#nav-resume,
 body.travel ul#navigation li a#nav-travel {
-  background-color: #5654BF; /*purple*/
+  background-color: #FF8A58; /*ORANGE*/
 
 }
 
