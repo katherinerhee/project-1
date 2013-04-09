@@ -42,7 +42,7 @@ h2 {
   font-size: 24px;
   display: block;
   padding: 6px 12px 6px 12px;
-  background-color: #4682B4;
+  background-color: #4682B4; /*blue*/
   color: white;
   width: 240px;
   
@@ -53,7 +53,7 @@ h3 {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #5654BF;
+  color: #5654BF; /*purple*/
   margin: 6px;
   
 }
@@ -73,7 +73,10 @@ cite {
 
 a {
   color: #708090;
-  
+}
+
+ul#navigation a {
+  text-decoration: none;
 
 }
 
@@ -165,7 +168,7 @@ ul#navigation li {
 ul#navigation li a {
   display: block; /* Maximize clickable area */
   padding: 5px 10px 5px 10px;
-  background-color: #41BB8A;
+  background-color: #41BB8A; /*blue*/
   color: white;
 
 }
@@ -177,7 +180,7 @@ body.home ul#navigation li a#nav-home,
 body.about ul#navigation li a#nav-about,
 body.resume ul#navigation li a#nav-resume,
 body.travel ul#navigation li a#nav-travel {
-  background-color: #5654BF;
+  background-color: #5654BF; /*purple*/
 
 }
 
